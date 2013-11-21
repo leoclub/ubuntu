@@ -1,0 +1,272 @@
+/*
+ * Created on 2012-12-26 14:22:52
+ * @author  Leo Sun
+ * @e-mail  club813@163.com
+ * @website http://www.club813.com
+ *
+ */
+
+* {
+	margin:0px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:10px;
+	font-family: 'Ubuntu Beta', UbuntuBeta, Ubuntu, 'Bitstream Vera Sans', 'DejaVu Sans', Tahoma, sans-serif;
+}
+
+div#banner {
+	width:945px;
+	height:64px;
+	background-color:#DD4814;
+}
+div#banner ul {
+	list-style-type:none;
+	line-height:60px;
+}
+div#banner ul li {
+	float:left;
+	margin-left:14px;
+	color:white;
+	font-size:14px;
+}
+div#search {
+	width:960px;
+	height:48px;
+}
+div#search ul {
+	margin-right:7px;
+	width:190px;
+	height:40px;
+	background-color:rgb(239,239,239);
+	list-style-type:none;
+}
+div#search ul li input {
+	height:22px;
+	width:145px;
+	float:right;
+	margin-top:-18px;
+	margin-right:33px;
+}
+div#search ul li img {
+	width:23px;
+	height:22px;
+	margin-top:-24px;
+	float:right;
+	margin-right:5px;
+}
+
+div#pic {
+	width:944px;
+	height:422px;
+}
+div#pic ul {
+	list-style-type:none;
+}
+div#pic ul li.pic_l {
+	float:left;
+	width:377px;
+	height:422px;
+	text-align:center;
+}
+div#pic ul li p {
+	margin-top:25px;
+}
+div#pic ul li p.font_1 {
+	font-size:36px;
+	font-weight:bold;
+}
+div#pic ul li p.font_2 {
+	font-size:24px;
+}
+div#pic ul li p.font_3 input {
+	font-size:24px;
+	width:160px;
+	height:40px;
+	background-color:#DD4814;
+	color:white;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+}
+div#pic ul li p.font_4 {
+	font-size:24px;
+	color:#DD4814;
+	font-weight:bold;
+}
+div#pic ul li img {
+	margin-top:30px;
+	float:right;
+	width:567px;
+	height:347px;
+}
+
+/**		CLOCK		*/
+
+div#pic ul li div#clock {
+	height:15px;
+	width:70px;
+	position:absolute;
+	margin-left:795px;
+	margin-top:283px;
+	color:white;
+}
+/**		THE  LIST	*/
+div#list {
+	width:960px;
+	height:240px;
+}
+div#list .list_left {
+	width:300px;
+	height:280px;
+	float:left;
+	background-color:#eeeded;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+}
+div#list .list_mid {
+	width:300px;
+	height:280px;
+	float:left;
+	margin-left:30px;
+	background-color:#eeeded;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+}
+div#list .list_right {
+	width:300px;
+	height:280px;
+	float:right;
+	background-color:#eeeded;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+}
+
+/**		list_left	*/
+div#list .list_left ul {
+	list-style-type:none;
+}
+
+div#list .list_left ul .left_title {
+	font-size:20px;
+	margin-left:30px;
+	margin-top:20px;
+	font-family: "Arial","Tahoma","Î¢ÈíÑÅºÚ","ÑÅºÚ";
+}
+div#list .list_left ul .left_content{
+	font-size:16px;
+	margin-left:30px;
+	margin-top:20px;
+	font-family: "Arial","Tahoma","Î¢ÈíÑÅºÚ","ÑÅºÚ";
+	line-height:20px;
+}
+div#list .list_left ul .left_foot{
+	font-size:16px;
+	margin-left:30px;
+	margin-top:20px;
+	font-family: "Arial","Tahoma","Î¢ÈíÑÅºÚ","ÑÅºÚ";
+	line-height:20px;
+	color:#DD4814;
+}
+div#list .list_left ul .left_foot img {
+
+}
+
+/**		list_mid	*/
+div#list .list_mid ul {
+	list-style-type:none;
+}
+
+div#list .list_mid ul .mid_title {
+	font-size:20px;
+	margin-left:30px;
+	margin-top:20px;
+	font-family: "Arial","Tahoma","Î¢ÈíÑÅºÚ","ÑÅºÚ";
+}
+div#list .list_mid ul .mid_content{
+	font-size:16px;
+	margin-left:30px;
+	margin-top:20px;
+	font-family: "Arial","Tahoma","Î¢ÈíÑÅºÚ","ÑÅºÚ";
+	line-height:20px;
+}
+div#list .list_mid ul .mid_foot{
+	font-size:16px;
+	margin-left:30px;
+	margin-top:20px;
+	font-family: "Arial","Tahoma","Î¢ÈíÑÅºÚ","ÑÅºÚ";
+	line-height:20px;
+	color:#DD4814;
+}
+div#list .list_mid ul .mid_foot img {
+	width:
+}
+/**		list_right	*/
+div#list .list_right ul {
+	list-style-type:none;
+}
+div#list .list_right ul.list_right_l .right_title {
+	font-size:20px;
+	margin-left:30px;
+	margin-top:20px;
+	font-family: "Arial","Tahoma","Î¢ÈíÑÅºÚ","ÑÅºÚ";
+}
+div#list .list_right ul .right_content{
+	width:155px;
+	font-size:16px;
+	margin-left:30px;
+	margin-top:20px;
+	font-family: "Arial","Tahoma","Î¢ÈíÑÅºÚ","ÑÅºÚ";
+	line-height:20px;
+}
+div#list .list_right ul .right_foot{
+	font-size:16px;
+	margin-left:30px;
+	margin-top:20px;
+	font-family: "Arial","Tahoma","Î¢ÈíÑÅºÚ","ÑÅºÚ";
+	line-height:20px;
+	color:#DD4814;
+}
+div#list .list_right ul.list_right_r li.right_pic img {
+	float:right;
+	margin-top:-180px;
+}
+
+
+/**		LINK	*/
+div#link {
+	width:960px;
+	height:400px;
+	margin-top:50px;
+	background-color:#f7f6f5;
+}
+div#link ul {
+	list-style-type:none;
+	width:160px;
+	height:180px;
+	float:left;
+}
+div#link ul li {
+	margin-top:5px;
+	margin-left:15px;
+}
+div#link ul li.dotted {
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	line-height:20px;
+}
+/**		footer	*/
+div#footer {
+	width:960px;
+	height:60px;
+	margin-top:-30px;
+	background-color:#f7f6f5;
+}
+div#footer .foot_l {
+	float:left;
+	margin-left:30px;
+	color:grey;
+}
+div#footer .foot_r {
+	float:right;
+	margin-right:10px;
+}
